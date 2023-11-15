@@ -10,6 +10,36 @@
     color: white;
 }
 
+.noticia{
+    margin-bottom: 10px;
+}
+
+.estrutura-noticia{
+    position: relative;
+    justify-content: start;
+    background-color: #2B3035;
+    width: 50rem;
+    height: 9.5rem;
+    align-items: center;
+    padding: 0px;
+    border-radius: 3px;
+    margin-left: 12px;
+}
+
+.conteudo-noticia{
+    max-width: 70%;
+}
+
+.tag-a-noticia{
+    width: 0px;
+    height: 0px;
+}
+
+.img-noticia{
+    height: 8rem;
+    width: 8rem;
+}
+
 @media(max-width: 404px){
     .card{
         width: 10rem;
