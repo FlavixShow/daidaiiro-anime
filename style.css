@@ -1,0 +1,11 @@
+.card{
+    width: 11rem; 
+    background-color: #2B3035; 
+    border: none; 
+    margin: 0px 2px 4px 2px;
+    padding: 0px;
+}
+.card-text{
+    text-align: center;
+    color: white;
+}
