@@ -9,3 +9,10 @@
     text-align: center;
     color: white;
 }
+
+@media(max-width: 404px){
+    .card{
+        width: 10rem;
+    }
+
+}
