@@ -142,3 +142,9 @@ a.tag-a-color:hover{
 .campo-comentario{
     max-width: 600px;
 }
+
+@media(max-width:465.60px){
+    .campo-comentario{
+        margin-bottom: 5px;
+    }
+}
