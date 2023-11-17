@@ -154,4 +154,8 @@ a.tag-a-color:hover{
         .main {
             position: relative;
         }
+    }@media(max-height: 711px){
+        #rodape-pagina-contato{
+            position: initial;
+        }
     }
