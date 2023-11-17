@@ -143,7 +143,8 @@ a.tag-a-color:hover{
     max-width: 600px;
 }
     /*rodape da pagina de contato*/
-    @media(min-width: 288px){
+    
+    @media(min-width: 290px){
         #rodape-pagina-contato{
             position: fixed;
             bottom: 0;
@@ -152,5 +153,9 @@ a.tag-a-color:hover{
         
         .main {
             position: relative;
+        }
+    }@media(max-height: 711px){
+        #rodape-pagina-contato{
+            position: initial;
         }
     }
