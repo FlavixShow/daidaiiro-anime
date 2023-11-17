@@ -35,7 +35,7 @@ a{
     position: relative;
     justify-content: start;
     background-color: #2B3035;
-    width: 50rem;
+    max-width: 50rem;
     align-items: center;
     padding: 12px 0px 12px 0px;
     border-radius: 3px;
@@ -86,7 +86,7 @@ a.tag-a-color:hover{
 
 .noticia{
     background-color: #2B3035;
-    width: 50rem;
+    max-width: 50rem;
     padding: 12px;
 }
 
@@ -103,7 +103,7 @@ a.tag-a-color:hover{
 
 .subtitulo-noticia{
     color: white;
-
+    word-wrap: break-word;
 }
 
 .data-publicacao{
