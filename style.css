@@ -6,6 +6,7 @@ a{
     text-decoration: none;
 }
 
+
 /*Cards*/
 .card{
     width: 11rem; 
@@ -134,3 +135,22 @@ a.tag-a-color:hover{
     margin-bottom: 20px;
 
 }
+
+
+/*página de contato*/
+
+.campo-comentario{
+    max-width: 600px;
+}
+    /*rodape da pagina de contato*/
+    @media(min-width: 288px){
+        #rodape-pagina-contato{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .main {
+            position: relative;
+        }
+    }
