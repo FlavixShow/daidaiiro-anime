@@ -142,20 +142,3 @@ a.tag-a-color:hover{
 .campo-comentario{
     max-width: 600px;
 }
-    /*rodape da pagina de contato*/
-    
-    @media(min-width: 290px){
-        #rodape-pagina-contato{
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        
-        .main {
-            position: relative;
-        }
-    }@media(max-height: 711px){
-        #rodape-pagina-contato{
-            position: initial;
-        }
-    }
