@@ -64,15 +64,13 @@
                     <h1 style="color: #ff7b00;">Deixe seu comentário:</h1>
                     <div class="campo-comentario">
                         <p style="color: white; margin: 20px 0px 3px 0px;">Nick Name:</p>
-                        <form method="post" action="">
-                            <input type="text">
-                        </form>
+                        <form name="comment">
+                            <input type="text" name="nome">
 
-                        <p style="color: white; margin: 20px 0px 3px 0px; ">Comentário:</p>
-                        <textarea name="Comentário" id="comentario" style="width: 100%; height: 300px;"></textarea>
+                            <p style="color: white; margin: 20px 0px 3px 0px; ">Comentário:</p>
+                            <textarea name="texto" id="comentario" style="width: 100%; height: 300px;"></textarea>
 
-                        <form method="post" action="">
-                            <input class="botao-comentario" type="submit" value="Enviar">
+                            <input class="botao-comentario" type="button" value="Enviar" onclick="receber_comentario()">
                         </form>
                         <br>
                     </div>
@@ -84,7 +82,7 @@
         </div>
 
         <?php
-            echo"ola mundo"
+            echo"php teste";
         ?>
     </main>
 
